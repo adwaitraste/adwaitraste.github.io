@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/0493b61d43.js"></script>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Adwait Raste | Contact Me</title>
+</head>
+<body id="top">
+
+    <!-- Imported header from header.js file -->
+    <script src="./js/header.js"></script>
+    
+    <main>
+        <div class="container">
+            <div class="item-a">
+                <h3>Contact me</h3>
+                <p>
+                    <span>Mobile:</span> +917774047865 <br>
+                    <span>Email:</span> adwait.raste@research.iiit.ac.in <br>
+                    125 Bakul Nivas <br>
+                    International Institute of Information Technology <br>
+                    Hyderabad
+                </p>
+            </div>
+            <div class="item-b">
+                <form action="">
+                    <div class="container2">
+                        <div class="item-d">
+                            <h3 align="center">Rate My Skills</h3>
+                        </div>
+                        <div class="item-e">
+                            <input placeholder="Name" type="text" id="name">
+                        </div>
+                        <div class="item-f">
+                            <select name="" id="skillSelect">
+                                <option value="" selected disabled>Choose My Skill</option>
+                                <option value="">Javascript</option>
+                                <option value="">HTML</option>
+                                <option value="">C++</option>
+                            </select>
+                        </div>
+                        <div class="item-g">
+                            <select name="" id="levelSelect">
+                                <option value="" selected disabled>Choose Skill Level</option>
+                                <option value="">Beginner</option>
+                                <option value="">Intermediate</option>
+                                <option value="">Proficient</option>
+                            </select>
+                        </div>
+                        <div class="item-h">
+                            <input placeholder="Comment" type="text" id="comment">
+                        </div>
+                        <div class="item-i">
+                            <button onclick="submitForm()">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="item-c">
+                <table align="center" width=100%>
+                    <thead>
+                        <th>Name</th>
+                        <th>Skill</th>
+                        <th>Level</th>
+                        <th>Comment</th>
+                    </thead>
+                    <tbody id="tbodySkills"></tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <script src="./js/contact.js"></script>
+    
+    <!-- Imported footer from footer.js file -->
+    <script src="./js/footer.js"></script>
+
+</body>
+</html>
