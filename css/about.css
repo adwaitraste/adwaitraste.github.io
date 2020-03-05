@@ -1,60 +1,12 @@
-.container
+
+
+.card-reveal span, .card-content span
 {
-    width: 80%;
-    margin: 0 auto;
-    display: grid;
-    row-gap: 10px;
-    grid-template-areas: 
-    "gallery"
-    "education";
+    font-size: 30px !important;
+    font-weight: 500 !important;
 }
 
-.container-2, .container-3
+.card-reveal ul li
 {
-    display: grid;
-    margin: 0 auto;
-    grid-template-areas: 
-    "image";
-    justify-content: space-around;
-    align-content: space-around;
-}
-
-img
-{
-    margin-bottom: 50px;
-    width: 35vw;
-    grid-area: image;
-}
-
-.item-a
-{
-    padding: 10px;
-    grid-area: gallery;
-}
-.item-b
-{
-    padding: 10px;
-    grid-area: education;
-}
-
-@media (max-width: 800px)
-{
-    h3
-    {
-        font-size: 20px;
-    }
-
-    h5
-    {
-        font-size: 15px;
-    }
-
-    .container
-    {
-        width: 80%;
-    }
-    img
-    {
-        width: 70vw;
-    }
+    font-size: 25px !important;
 }

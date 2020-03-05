@@ -1,9 +1,14 @@
+// Footer markup common to all webpages
+
 document.write(`
-<button onclick="toTop()" id="topBtn">Top</button>
-<footer>
-        <div class="footer-container">
-            <a href="https://github.com/adwaitraste" class="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-            <a href="https://www.instagram.com/4dw4it/" class="insta" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+<footer class="page-footer">
+    <div class="nav-wrapper row white">
+        <div class="center black-text cpText">
+            <span style="color: #ff6000">&copy Engenext</span> | 2020
         </div>
+    </div>
 </footer>
+<script src="./js/materialize.js"></script>
+<script src="./js/global.js"></script>
 `);
+

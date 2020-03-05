@@ -4,77 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://use.fontawesome.com/0493b61d43.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/index.css">
-    <title>Adwait Raste | Home</title>
+    <link rel="stylesheet" href="./css/materialize.css">
+    <link rel="stylesheet" href="./css/global.css">    
+    <link rel="stylesheet" href="./css/home.css">  
+    <title>Engenext | Home</title>
 </head>
-<body id="top">
-    
-    <!-- Imported header from header.js file -->
-    <script src="./js/header.js"></script>
+<body>
+    <!-- Header imported from Javascript file
+    <script src="./js/header.js"></script> -->
+    <header class="header navbar-fixed">
+        <nav class="z-depth-0">
+            <div class="nav-wrapper white">
+                <a href="#" class="brand-logo"><span style="color: #FF6000">Engenext</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
+                <ul class="right hide-on-med-and-down" id="navbarUL">
+                    <li class="current"><a class="black-text" href="./index.html">Home</a></li>
+                    <li><a class="black-text" href="./services.html">Services</a></li>
+                    <li><a class="black-text" href="./about.html">About</a></li>
+                    <li><a class="black-text" href="./careers.html">Careers</a></li>
+                    <li><a class="black-text" href="./contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a class="black-text" href="./index.html">Home</a></li>
+        <li><a class="black-text" href="./services.html">Services</a></li>
+        <li><a class="black-text" href="./about.html">About</a></li>
+        <li><a class="black-text" href="./careers.html">Careers</a></li>
+        <li><a class="black-text" href="./contact.html">Contact Us</a></li>
+    </ul>
+    </header>
+
 
     <main>
-        <div class="container">
-            <div class="item-a">
-                <h1 align="center">Hi I'm Adwait</h1>
-                <h2 align="center" id="noOfVisits"></h2>
-                <h3 align="center" id="keepItGoing"></h3>
+        <div class="landingPage">
+            <div class="container row">
+                <div class="center imgCont">
+                    <img class="responsive-img lpImg" src="./img/logo.png">
+                </div>
             </div>
-            <div class="item-b">
-                <!-- <h3>Just my 2 cents</h3>
-                <p>
-                    There come 3 stages after facing a problem <br>
-                    1. Cribbing, Crying and Cussing <br>
-                    2. Coming up with a solution <br>
-                    3. Implementation of the solution <br>
-                    Minimise time spent on stage 1 <br>
-                    Move to stages 2 and 3 <br>
-                    Maintain a PMA Positive Mental Attitude
-                </p> -->
-                <h3>Table with Merged Cells</h3>
-                <table>
-                    <tr>
-                        <th>1</th>
-                        <th>2</th>
-                        <th>3</th>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><span>Merged</span></td>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td rowspan="2" colspan="2"><span>Merged</span></td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td>8</td>
-                        <td>9</td>
-                    </tr>
-                </table>
+            <div class="container row">
+                <div class="center">
+                    <h1><span style="color: #FF6000">Engenext</span> Software Systems</h1>                                                                                                                   </h1>
+                </div>
             </div>
-            <div class="item-c">
-                <h3>Some hobbies</h3>
-                <p>
-                    Dancing <br>
-                    Coding <br>
-                    Gaming <br>
-                    Table Tennis
-                </p>
+            <div class="container row">
+                <div class="center">
+                    <h4>Engineering Software... Next Generation!</h4>
+                </div>
+            </div>
+            <div class="container row">
+                <div class="center">
+                    <h4>
+                        Providing Engineering Companies with Innovative, 
+                        Comprehensive, Effective Software Solutions
+                    </h4>
+                </div>
             </div>
         </div>
     </main>
 
-    <!-- Imported footer from footer.js file -->
+    <!-- Footer imported from Javascript file -->
     <script src="./js/footer.js"></script>
-    <script src="./js/index.js"></script>
-    <script src="./js/global.js"></script>
-    
 </body>
 </html>
