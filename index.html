@@ -1,74 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="./css/materialize.css">
-    <link rel="stylesheet" href="./css/global.css">    
-    <link rel="stylesheet" href="./css/home.css">  
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/index.css">
     <title>Engenext | Home</title>
 </head>
+
 <body>
-    <!-- Header imported from Javascript file
-    <script src="./js/header.js"></script> -->
-    <header class="header">
-        <div class="navbar-fixed">
-        <nav class="z-depth-0">
-            <div class="nav-wrapper white">
-                <a href="#" class="brand-logo"><span style="color: #FF6000">Engenext</a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
-                <ul class="right hide-on-med-and-down" id="navbarUL">
-                    <li class="current"><a class="black-text" href="./index.html">Home</a></li>
-                    <li><a class="black-text" href="./services.html">Services</a></li>
-                    <li><a class="black-text" href="./about.html">About</a></li>
-                    <li><a class="black-text" href="./careers.html">Careers</a></li>
-                    <li><a class="black-text" href="./contact.html">Contact Us</a></li>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <a class="navbar-brand col-2 px-2 text-primary" href="#">
+                <img src="./assets/EngenextLogoLight.png" alt="" width="50">
+                Engenext
+            </a>
+
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse px-2" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contact.html">Contact</a>
+                    </li>
                 </ul>
             </div>
         </nav>
-        </div>
-    <ul class="sidenav" id="mobile-demo">
-        <li><a class="black-text" href="./index.html">Home</a></li>
-        <li><a class="black-text" href="./services.html">Services</a></li>
-        <li><a class="black-text" href="./about.html">About</a></li>
-        <li><a class="black-text" href="./careers.html">Careers</a></li>
-        <li><a class="black-text" href="./contact.html">Contact Us</a></li>
-    </ul>
     </header>
 
-
     <main>
-        <div class="landingPage">
-            <div class="container row">
-                <div class="center imgCont">
-                    <img class="responsive-img lpImg" src="./img/logo.png">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 offset-lg-1 col-lg-5 hero-text pt-5">
+                    <span class="text-primary">Engenext</span> <br>
+                    Software <br>
+                    Solutions
                 </div>
             </div>
-            <div class="container row">
-                <div class="center">
-                    <h1><span style="color: #FF6000">Engenext</span> Software Systems</h1>                                                                                                                   </h1>
-                </div>
-            </div>
-            <div class="container row">
-                <div class="center">
-                    <h4>Engineering Software... Next Generation!</h4>
-                </div>
-            </div>
-            <div class="container row">
-                <div class="center">
-                    <h4>
-                        Providing Engineering Companies with Innovative, 
-                        Comprehensive, Effective Software Solutions
-                    </h4>
+            <div class="row">
+                <div class="col-12 offset-lg-7 col-lg-5 side-text py-5">
+                    <span class="text-primary">Engineering Software ...</span> <br>
+                    Next Generation!
                 </div>
             </div>
         </div>
     </main>
 
-    <!-- Footer imported from Javascript file -->
-    <script src="./js/footer.js"></script>
+
+
+    <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>
